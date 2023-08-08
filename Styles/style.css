@@ -4,22 +4,31 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    
 
 }
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 hr{
     border: 1px solid #D1D1D1;
     width: 807px;
-    margin: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+
 }
-.container-player{
+.container{
     background-color: #FFFFFF;
     width: 870px;
     padding: 40px 0px 40px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
 }
 .section-title{
 color: #562EFF;
@@ -31,6 +40,7 @@ padding-bottom: 40px;
 }
 .player-name{
     padding-left: 16px;
+    font-weight: 500;
 }
 
 .players{
@@ -49,3 +59,83 @@ padding-bottom: 40px;
     width: 56px;
     
 }
+
+/* top blogs part */
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 65px;
+
+}
+.blog{
+    display: flex;
+}
+.blogs .thumbnail img{
+    width: 180px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 15px;
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/* latest course */
+.course-title{
+    font-weight: 500;
+    font-size: 16px;
+}
+.course-author{
+    color: #ED6B4F;
+    font-size: 14px;
+}
+.banner img{
+    width: 240px;
+    height: 120px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #EBEBEB;
+}
+.course-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.digits{
+    color: #A2A2A2;
+}
+.duration{
+    color: #FF4A60;
+    background-color: #FFE4E8;
+    border-radius: 14px;
+    padding: 5px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+    width: 252.423px;
+    
+}
+.course{
+    background-color: #FFF;
+    filter: drop-shadow(0px 5.342289924621582px 13.35572338104248px rgba(0, 0, 0, 0.05));
+    border-radius: 20px;
+    padding: 12px;
+}
+
+
